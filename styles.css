@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.survey-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.survey-form h1 {
+    text-align: center;
+}
+
+.survey-form p {
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.survey-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.survey-form input[type="text"],
+.survey-form input[type="email"],
+.survey-form input[type="tel"],
+.survey-form select,
+.survey-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.survey-form fieldset {
+    border: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.survey-form fieldset legend {
+    font-weight: bold;
+}
+
+.survey-form fieldset label {
+    display: block;
+    margin-top: 5px;
+}
+
+.survey-form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.survey-form button:hover {
+    background-color: #004d40;
+}
